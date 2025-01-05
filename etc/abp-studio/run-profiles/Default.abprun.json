@@ -1,0 +1,13 @@
+﻿{
+  "applications": {
+    "NonprofitSuite.Blazor": {
+      "type": "dotnet-project",
+      "launchUrl": "https://localhost:44360",
+      "path": "../../../src/NonprofitSuite.Blazor/NonprofitSuite.Blazor.csproj",
+      "kubernetesService": ".*-blazorserver$",
+      "execution": {
+        "order": 2
+      }
+}
+  }
+}

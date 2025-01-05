@@ -1,0 +1,101 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.LeptonXLiteTheme": {
+      "version": "4.0.3",
+      "isInstalled": true
+    },
+    "Volo.Abp.Account": {
+      "version": "9.0.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "9.0.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.Identity": {
+      "version": "9.0.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.TenantManagement": {
+      "version": "9.0.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.SettingManagement": {
+      "version": "9.0.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.PermissionManagement": {
+      "version": "9.0.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.FeatureManagement": {
+      "version": "9.0.2",
+      "isInstalled": true
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "NonprofitSuite.Application": {
+      "path": "src/NonprofitSuite.Application/NonprofitSuite.Application.abppkg",
+      "folder": "src"
+    },
+    "NonprofitSuite.Application.Tests": {
+      "path": "test/NonprofitSuite.Application.Tests/NonprofitSuite.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "NonprofitSuite.Domain.Shared": {
+      "path": "src/NonprofitSuite.Domain.Shared/NonprofitSuite.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "NonprofitSuite.Application.Contracts": {
+      "path": "src/NonprofitSuite.Application.Contracts/NonprofitSuite.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "NonprofitSuite.HttpApi": {
+      "path": "src/NonprofitSuite.HttpApi/NonprofitSuite.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "NonprofitSuite.HttpApi.Client": {
+      "path": "src/NonprofitSuite.HttpApi.Client/NonprofitSuite.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "NonprofitSuite.EntityFrameworkCore.Tests": {
+      "path": "test/NonprofitSuite.EntityFrameworkCore.Tests/NonprofitSuite.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "NonprofitSuite.EntityFrameworkCore": {
+      "path": "src/NonprofitSuite.EntityFrameworkCore/NonprofitSuite.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "NonprofitSuite.TestBase": {
+      "path": "test/NonprofitSuite.TestBase/NonprofitSuite.TestBase.abppkg",
+      "folder": "test"
+    },
+    "NonprofitSuite.Domain.Tests": {
+      "path": "test/NonprofitSuite.Domain.Tests/NonprofitSuite.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "NonprofitSuite.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/NonprofitSuite.HttpApi.Client.ConsoleTestApp/NonprofitSuite.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "NonprofitSuite.DbMigrator": {
+      "path": "src/NonprofitSuite.DbMigrator/NonprofitSuite.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "NonprofitSuite.Blazor": {
+      "path": "src/NonprofitSuite.Blazor/NonprofitSuite.Blazor.abppkg",
+      "folder": "src"
+    },
+    "NonprofitSuite.Domain": {
+      "path": "src/NonprofitSuite.Domain/NonprofitSuite.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}
